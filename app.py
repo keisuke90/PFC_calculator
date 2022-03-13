@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title('PFCカリキュレーター')
+st.title('PFCカルキュレーター')
 
 sex = st.sidebar.selectbox('性別', ['男性', '女性'])
 age = st.sidebar.slider('年齢', 0, 100, 30)
